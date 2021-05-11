@@ -1,9 +1,16 @@
+import SongDetail from './components/SongDetail';
 import SongList from './components/SongList'; 
 
 const App = () => {
-    return (<div>
+    return (
+    <div>
+        <div className='left'>
         <SongList />
-    </div>
+        </div>
+        <div className='right panel'>
+        <SongDetail />
+        </div>
+        </div>
     );
 } 
 
